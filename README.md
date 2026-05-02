@@ -41,7 +41,7 @@ Every scenario includes:
 
 ## 🖥️ Live Demo
 
-> 🔗 **[testcraft-ai.vercel.app](https://testcraft-ai.vercel.app)** *(coming soon)*
+> 🔗 https://test-craft-ai-tan.vercel.app/
 
 ---
 
