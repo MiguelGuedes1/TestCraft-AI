@@ -71,8 +71,8 @@ User Story Input
 The system prompt enforces:
 - Minimum 8 scenarios per generation (typically 12–22)
 - At least 1 security, 1 accessibility, and 1 performance scenario always included
-- Atomic, specific steps — clear enough for a junior tester to execute without ambiguity
-- Language detection — input in Portuguese returns scenarios in Portuguese
+- Atomic, specific steps clear enough for a junior tester to execute without ambiguity
+- Language detection input in Portuguese returns scenarios in Portuguese
 
 ---
 
@@ -121,7 +121,7 @@ testcraft-ai/
 
 ## 👨‍💻 Author
 
-**Miguel Guedes** — QA Engineer in training, building tools that make QA more strategic.
+**Miguel Guedes** QA Engineer in training, building tools that make QA more strategic.
 
 [![GitHub](https://img.shields.io/badge/GitHub-MiguelGuedes1-181717?style=flat-square&logo=github)](https://github.com/MiguelGuedes1)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-miguel--guedes1-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/miguel-guedes1/)
