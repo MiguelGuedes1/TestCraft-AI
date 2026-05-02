@@ -1,6 +1,6 @@
-# 🧪 TestCraft AI — Professional Test Case Generator
+# 🧪 TestCraft AI Professional Test Case Generator
 
-> AI-powered BDD test case generator for QA engineers. Paste a user story, get production-ready Gherkin scenarios in seconds.
+> AI-powered BDD test case generator for QA engineers. Paste a user story, get production ready Gherkin scenarios in seconds.
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)
@@ -11,7 +11,7 @@
 
 ## 📌 The Problem
 
-QA engineers spend hours writing test cases manually — documenting scenarios that could be generated in seconds. Under sprint pressure, edge cases, security, and accessibility tests are the first to be skipped, leading to inconsistent coverage across releases.
+QA engineers spend hours writing test cases manually, documenting scenarios that could be generated in seconds. Under sprint pressure, edge cases, security, and accessibility tests are the first to be skipped, leading to inconsistent coverage across releases.
 
 **TestCraft AI solves this.**
 
@@ -42,47 +42,6 @@ Every scenario includes:
 ## 🖥️ Live Demo
 
 > 🔗 **[testcraft-ai.vercel.app](https://testcraft-ai.vercel.app)** *(coming soon)*
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js `v20.19+` or `v22.12+`
-- An [Anthropic API key](https://console.anthropic.com)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/MiguelGuedes1/TestCraft-AI.git
-cd TestCraft-AI
-
-# Install dependencies
-npm install
-
-# Create your environment file
-cp .env.example .env
-```
-
-### Configuration
-
-Edit the `.env` file and add your Anthropic API key:
-
-```env
-VITE_ANTHROPIC_API_KEY=sk-ant-api03-your-key-here
-```
-
-> ⚠️ Never commit your `.env` file. It is already included in `.gitignore`.
-
-### Run locally
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
@@ -148,15 +107,6 @@ testcraft-ai/
 
 ---
 
-## 🔒 Security Notes
-
-- The Anthropic API key is read from environment variables via `import.meta.env`
-- The `anthropic-dangerous-direct-browser-access` header is required for direct browser API calls
-- For production use with public access, consider implementing a backend proxy to protect your API key
-- Never expose your API key in version control
-
----
-
 ## 🗺️ Roadmap
 
 - [ ] Deploy to Vercel with public link
@@ -180,7 +130,7 @@ testcraft-ai/
 
 ## 📄 License
 
-MIT License — free to use, modify and distribute.
+MIT License free to use, modify and distribute.
 
 ---
 
